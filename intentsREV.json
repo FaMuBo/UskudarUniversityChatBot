@@ -1,0 +1,178 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [ "Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day" ],
+      "responses": [ "Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [ "Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time" ],
+      "responses": [ "See you!", "Have a nice day", "Bye! Come back again soon." ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [ "Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me" ],
+      "responses": [ "Happy to help!", "Any time!", "My pleasure" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": [ "Sorry, can't understand you", "Please give me more info", "Not sure I understand" ],
+      "context": [ "" ]
+    },
+
+    {
+      "tag": "academic_calendar",
+      "patterns": [ "what is the academic calendar?", "academic calendar", "the academic calendar" ],
+      "responses": [ "Academic Calender: https://uskudar.edu.tr/en/academic-calendar" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "timetable",
+      "patterns": [ "What is the timetable ?", "What is the timetable for first year ?", "What is the timetable for second year ?", "What is the timetable for third year?", "What is the timetable for fourth year of software engineering?", "timetable" ],
+      "responses": [ "Timetable: https://schedule.uskudar.edu.tr/liste/index/mdbf" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "headOfSoftware",
+      "patterns": [ "who is the head of software engineering department", "head of software engineering department" ],
+      "responses": [ "https://uskudar.edu.tr/en/academic-staff/turker-tekin-erguzel" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "headOfComputer",
+      "patterns": [ "who is the head of computer engineering department", "head of computer engineering department" ],
+      "responses": [ "Serhat ÖZEKES, Ph.D", "https://uskudar.edu.tr/en/academic-staff/serhat-ozekes" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "tugce_ballý_altuglu",
+      "patterns": [ " Tuðçe BALLI ALTUÐLU, Ph.D", "tugce ballý altuglu", "Tuðçe Ballý Altuðlu" ],
+      "responses": [ "https://uskudar.edu.tr/akademik-personel/tugce-balli-altuglu" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "tugce_ballý_altuglu_office",
+      "patterns": [ " Tuðçe BALLI ALTUÐLU, Ph.D office number", "what is the office of tugce ballý altuglu?", "What is the room number of Tuðçe Ballý Altuðlu?" ],
+      "responses": [ "The office number of Tuðçe BALLI ALTUÐLU is A301 in central campus" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "tugce_ballý_altuglu_officehour",
+      "patterns": [ " Tuðçe BALLI ALTUÐLU, Ph.D office hour", "what is the meeting hour of tugce ballý altuglu?", "What is the available time of Tuðçe Ballý Altuðlu for meeting?" ],
+      "responses": [ "You can meet with Tuðçe BALLI ALTUÐLU at Monday between 13:00-15:00 pm in A301" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "kristin_surpuhi_benli",
+      "patterns": [ "Kristin Surpuhi BENLÝ, Ph.D", "kristin surpuhi benli", "Kristin Surpuhi Benli" ],
+      "responses": [ "https://uskudar.edu.tr/en/academic-staff/kristin-surpuhi-benli" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "kristin_surpuhi_benli_office",
+      "patterns": [ " Kristin Surpuhi BENLÝ, Ph.D office number", "what is the office of kristin surpuhi benli?", "What is the room number of kristin surpuhi benli?" ],
+      "responses": [ "The office number of Kristin Surpuhi BENLÝ is A301 in central campus" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "kristin_surpuhi_benli_officehour",
+      "patterns": [ " Kristin Surpuhi BENLÝ, Ph.D office hour", "what is the meeting hour of kristin surpuhi benli?", "What is the available time of kristin surpuhi benli for meeting?" ],
+      "responses": [ "You can meet with Kristin Surpuhi BENLÝ at Monday between 13:00-15:00 pm in A301" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "ihab_abdalla_ibrahim_mohamed_elaff",
+      "patterns": [ "Ihab Abdalla Ibrahim Mohamed ELAFF, Ph.D", "Ihab Abdalla Ibrahim Mohamed ELAFF", "ihab abdalla ibrahim mohamed elaff" ],
+      "responses": [ "https://uskudar.edu.tr/en/academic-staff/ihab-abdalla-ibrahim-mohamed-elaff" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "ihab_abdalla_ibrahim_mohamed_elaff_office",
+      "patterns": [ " Ihab Abdalla Ibrahim Mohamed ELAFF office number", "what is the office of Ihab Abdalla Ibrahim Mohamed ELAFF?", "What is the room number of Ihab Abdalla Ibrahim Mohamed ELAFF?" ],
+      "responses": [ "The office number of Ihab Abdalla Ibrahim Mohamed ELAFF is B206 in central campus" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "ihab_abdalla_ibrahim_mohamed_elaff_officehour",
+      "patterns": [ " Ihab Abdalla Ibrahim Mohamed ELAFF office hour", "what is the meeting hour of Ihab Abdalla Ibrahim Mohamed ELAFF?", "What is the available time of Ihab Abdalla Ibrahim Mohamed ELAFF for meeting?" ],
+      "responses": [ "You can meet with Ihab Abdalla Ibrahim Mohamed ELAFF at Tuesday between 11:00-12:00 pm in B206" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "ibrahim_yýlmaz",
+      "patterns": [ "Ýbrahim YILMAZ", "Ýbrahim Yýlmaz", "ibrahim yýlmaz" ],
+      "responses": [ "https://uskudar.edu.tr/en/academic-staff/ibrahim-yilmaz" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "ibrahim_yýlmaz_office",
+      "patterns": [ " Ýbrahim YILMAZ office number", "what is the office of Ýbrahim YILMAZ?", "What is the room number of Ýbrahim YILMAZ?" ],
+      "responses": [ "The office number of Ýbrahim YILMAZ is B201 in central campus" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "ibrahim_yýlmaz_officehour",
+      "patterns": [ "Ýbrahim YILMAZ office hour", "what is the meeting hour of Ýbrahim YILMAZ?", "What is the available time of Ýbrahim YILMAZ for meeting?" ],
+      "responses": [ "You can meet with Ýbrahim YILMAZ at Wednesday between 15:00-16:00 pm in B201" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "burhan_pektas",
+      "patterns": [ "Burhan PEKTAÞ", "Burhan Pektaþ", "burhan pektas" ],
+      "responses": [ "https://uskudar.edu.tr/en/academic-staff/burhan-pektas" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "rowanda_ahmed",
+      "patterns": [ "Rowanda D. AHMED", "Rowanda D. Ahmed", "rowanda ahmed" ],
+      "responses": [ "https://uskudar.edu.tr/en/academic-staff/rowanda-d-a-ahmed" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "rowanda_ahmed_office",
+      "patterns": [ " Rowanda D. AHMED office number", "what is the office of Rowanda D. AHMED?", "What is the room number of Rowanda D. AHMED?" ],
+      "responses": [ "The office number of Rowanda D. AHMED is A304 in central campus" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "rowanda_ahmed_officehour",
+      "patterns": [ " Rowanda D. AHMED office hour", "what is the meeting hour of Rowanda D. AHMED?", "What is the available time of Rowanda D. AHMED for meeting?" ],
+      "responses": [ "Rowanda D. AHMED have a open-door policy about office hours. You can meet her in A304 by appointment." ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "payment",
+      "patterns": [
+        "What is the payment policy of Uskudar Univercity?",
+        "What is the number of accounting department?",
+        "payment details",
+        "How can i pay the bill?"
+      ],
+      "responses": [ "Payment: https://uskudar.edu.tr/tr/odeme-sistemi" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "price",
+      "patterns": [
+        "What is the price of deparments?",
+        "How much money should I pay for studying in Uskudar University?",
+        "price policy details",
+        "Education payment of Software Engineering, Computer Engineering, Industrial Engineering, Medicine"
+      ],
+      "responses": [ "Price: https://uskudar.edu.tr/tr/ogrenim-ucretleri" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "Menu",
+      "patterns": [ "What is today's menu?", "eating", "food", "I'm hungry", "What is on the menu?" ],
+      "responses": [ "Menu: https://sks.uskudar.edu.tr/yemek-menusu" ],
+      "context": [ "" ]
+    }
+
+  ]
+}
